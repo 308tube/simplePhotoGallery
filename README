@@ -23,5 +23,5 @@ How to use
 		]
  3. Optional, change var in spg.js
  		maxRange = 3	//number of images to rotate through
-		min = 1000		//starting point (1000 = pict-1000.jpg)
-		max = 1004		//end point	(1004 = photos/pict-1004.jpg)
+		min = 1000	//starting point (1000 = pict-1000.jpg)
+		max = 1004	//end point	(1004 = photos/pict-1004.jpg)
