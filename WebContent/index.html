@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Photo Gallery</title>
+
+    <!-- Bootstrap -->
+    <link href="res/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="res/js/html5shiv.js"></script>
+      <script src="res/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+  	<!-- inline style to make top menu bar transparent -->
+    <div class="navbar navbar-inverse navbar-fixed-top" style="opacity: 0.3" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id="loadingText" href="#">Loading Images...</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <form class="navbar-form navbar-left" role="form">
+            <button type="submit" id="linkBack" class="btn btn-default">BACK</button>
+            <button type="submit" id="linkPause" class="btn btn-default">PAUSE</button>
+            <button type="submit" id="linkResume" class="btn btn-default">PLAY</button>
+            <button type="submit" id="linkForward" class="btn btn-default">NEXT</button>
+          </form>
+          <ul class="nav navbar-nav navbar-left">
+            <li><a id="ajaxResponse" href="#"></a></li>
+	      </ul>
+          <ul class="nav navbar-nav navbar-right">
+	        <li><a id="gitHubLink" href="#">GitHub</a></li>
+	      </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="res/js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="res/js/bootstrap.min.js"></script>
+    <script src="res/js/backstretch.js"></script>
+    <script src="js/spg.js"></script>
+	
+  </body>
+</html>
