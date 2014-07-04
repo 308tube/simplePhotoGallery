@@ -34,14 +34,38 @@
 <p>Click on this link to view a demo: <a href="http://308tube.github.io/simplePhotoGallery/WebContent/?file=set1.array">Simple Photo Gallery</a></p>
 
 <h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>How to use</h3>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<ol>
+	<li>add images to photos folder <br /> name convention starts at pict-1000.jpg, all the way to pict-9999.jpg</li>
+	<li>
+		create a file that a array that holds images you want to display <br />
+		<pre>
+		<code>
+Example:
+[
+	"photos/pict-1000.jpg",
+	"photos/pict-1001.jpg",
+	"photos/pict-1002.jpg",
+	"photos/pict-1003.jpg",
+	"photos/pict-1004.jpg"
+]
+		</code>
+		</pre>	
+	</li>
+	<li>
+		Optional, change variables in spg.js is desired<br />
+		<pre>
+		<code>
+maxRange = 3	//number of images to rotate through
+min = 1000	//starting point (1000 = pict-1000.jpg)
+max = 1004	//end point	(1004 = photos/pict-1004.jpg)
+		</code>
+		</pre>	
+	</li>
+</ol>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p>Note: the Master branch has some demo image and files ready to view</p>
 
 <h3>
 <a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
