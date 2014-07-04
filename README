@@ -3,8 +3,8 @@ Simple Photo Gallery
 v1.0.0
 July 3rd, 2014
 
-Test URL
--------- 
+Test URL (dev local)
+-------- -----------
 http://localhost:8080/simplePhotoGallery/?file=set1.array
 http://localhost:8080/simplePhotoGallery/?file=set2.array
 
