@@ -1,5 +1,7 @@
 Simple Photo Gallery
 --------------------
+v1.0.0
+July 3rd, 2014
 
 Test URL
 -------- 
@@ -8,4 +10,18 @@ http://localhost:8080/simplePhotoGallery/?file=set2.array
 
 How to use
 ----------
-
+1. add images to photos folder
+	name convention starts at pict-1000.jpg, all the way to pict-9999.jpg
+2. create a file that a array that holds images you want to display
+	example:
+		[
+			"photos/pict-1000.jpg",
+			"photos/pict-1001.jpg",
+			"photos/pict-1002.jpg",
+			"photos/pict-1003.jpg",
+			"photos/pict-1004.jpg"
+		]
+ 3. Optional, change var in spg.js
+ 		maxRange = 3	//number of images to rotate through
+		min = 1000		//starting point (1000 = pict-1000.jpg)
+		max = 1004		//end point	(1004 = photos/pict-1004.jpg)
